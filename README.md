@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Local Research & CTI Triage Engine
 
 A local, offline document-triage dashboard that uses a self-hosted LLM (via [Ollama](https://ollama.com)) to summarize research papers, reports, or CTI documents dropped into a watch folder. Built with [FastAPI](https://fastapi.tiangolo.com/) and [smolagents](https://github.com/huggingface/smolagents), it runs an isolated agent per document and writes a Markdown digest for each one.
@@ -69,6 +69,4 @@ Then open [http://localhost:8000](http://localhost:8000) in a browser.
 - Only one pipeline run can be active at a time; `/api/run` rejects concurrent triggers.
 - `runtime_processing/` is treated as single-document isolation, not a queue — each file is fully processed and evicted before the next begins.
 - The dashboard auto-refreshes status every 2s and the results list every 4s.
-=======
-# local-research-assistant
->>>>>>> 64358989fda31554172e07689e716f910aa11f53
+
