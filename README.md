@@ -38,7 +38,7 @@ The agent talks to a local model server at `http://localhost:11434/v1` (Ollama's
 pip install fastapi uvicorn pypdf smolagents
 ollama serve                 # if not already running
 ollama pull gemma4
-uvicorn agent:app --reload
+python -m uvicorn agent:app --reload
 ```
 
 Then open [http://localhost:8000](http://localhost:8000) in a browser.
