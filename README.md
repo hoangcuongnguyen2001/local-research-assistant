@@ -3,7 +3,7 @@
 
 A local, offline document-triage dashboard that uses a self-hosted LLM (via [Ollama](https://ollama.com)) to summarize research papers, reports, or CTI documents dropped into a watch folder. Built with [FastAPI](https://fastapi.tiangolo.com/) and [smolagents](https://github.com/huggingface/smolagents), it runs an isolated agent per document and writes a Markdown digest for each one.
 
-Everything runs locally — no data leaves the machine.
+Everything runs locally - no data leaves the machine.
 
 ## How it works
 
