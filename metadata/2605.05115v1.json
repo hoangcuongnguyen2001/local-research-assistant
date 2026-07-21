@@ -1,0 +1,23 @@
+{
+  "title": "Manifold Steering Reveals the Shared Geometry of Neural Network Representation and Behavior",
+  "authors": [
+    "Daniel Wurgaft",
+    "Can Rager",
+    "Matthew Kowal",
+    "Vasudev Shyam Sheridan Feucht",
+    "Usha Bhalla",
+    "Tal Haklay",
+    "Eric Bigelow",
+    "Raphael Sarfati",
+    "Thomas McGrath",
+    "Owen Lewis",
+    "Jack Merullo",
+    "Noah D. Goodman",
+    "Thomas Fel",
+    "Atticus Geiger",
+    "Ekdeep Singh Lubana"
+  ],
+  "venue": "",
+  "year": "",
+  "abstract": "Neural representations carry rich geometric structure; but does that structure causally shape behavior? To address this question, we intervene along paths throughactivationspacedefinedbydifferentgeometries,andmeasurethebehavioral trajectories they induce. In particular, we test whether interventions thatrespect the geometry of activation space will yield behaviors close to those themodel exhibits naturally. Concretely, we first fit an activation manifoldMh torepresentations and a behavior manifoldMy to output probability distributions. We then test the linkMh ↔ My via interventions: we find that steering alongMh,whichwetermmanifoldsteering,yieldsbehavioraltrajectoriesthatfollowMy, whilelinear steering—whichassumesaEuclidean geometry—cutsthroughoff-manifold regions and hence producesunnatural outputs. Moreover, optimizinginterventionsinactivation space to produce paths alongMyrecovers activationtrajectoriesthattracethecurvatureofMh. We demonstrate this bidirectionalrelationshipbetweengeometryofrepresentationandbehavioracrosstasksandmodalities. Inlanguage models, weusereasoningtaskswithcyclicandsequentialgeometriesaswellasin-context learning taskswithmorecomplexgraphgeometries.Inavideoworldmodel,weuseataskwithgeometrycorrespondingtophysicaldynamics.Overall,ourworkshowsthatgeometryinneuralrepresentationisnotmerelyincidental,butisinfacttheproperobjectforenablingprincipledcontrolviainterventiononinternals. Thisrecaststhecoreproblemofsteeringfromfindingtherightdirectiontofindingtherightgeometry."
+}

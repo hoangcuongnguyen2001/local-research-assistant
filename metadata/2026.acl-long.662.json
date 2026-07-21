@@ -1,0 +1,33 @@
+{
+  "title": "FINCHAIN : A Symbolic Benchmark for Verifiable Chain-of-Thought Financial Reasoning",
+  "authors": [
+    "Zhuohan Xie",
+    "Daniil Orel",
+    "Rushil Thareja",
+    "Dhruv Sahnan",
+    "Hachem Madmoun",
+    "Fan Zhang",
+    "Debopriyo Banerjee",
+    "Georgi Georgiev",
+    "Xueqing Peng",
+    "Lingfei Qian",
+    "Jimin Huang",
+    "Jinyan Su",
+    "Aaryamonvikram Singh",
+    "Rui Xing",
+    "Rania Elbadry",
+    "Chen Xu",
+    "Haonan Li",
+    "Fajri Koto",
+    "Ivan Koychev",
+    "Tanmoy Chakraborty",
+    "Yuxia Wang",
+    "Salem Lahlou",
+    "Veselin Stoyanov",
+    "Sophia Ananiadou",
+    "Preslav Nakov"
+  ],
+  "venue": "Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  "year": "2026",
+  "abstract": "Multi-step symbolic reasoning is essential for robust financial analysis; yet, current benchmarks largely overlook this capability. Existing datasets such as FinQA and ConvFinQA emphasize final numerical answers while neglecting the intermediate reasoning steps required for transparency and verification. To address this gap, we introduce FINCHAIN , the first benchmark specifically designed for verifiable Chain-of-Thought evaluation in finance.\nFINCHAIN spans 58 topics across 12 financial domains, each represented by parameterized symbolic templates with executable Python code that enable fully machine-verifiable reasoning and scalable, contamination-free data generation. To assess reasoning capacity, we propose CHAIN EVAL, a dynamic alignment measure that jointly evaluates both the final-answer correctness and the step-level reasoning consistency. Our evaluation of 26 leading LLMs reveals that even frontier LLMs exhibit clear limitations in symbolic financial reasoning, while domain-adapted and math-enhanced fine-tuned models can substantially narrow this gap. Overall, FINCHAIN exposes persistent weaknesses in multi-step financial reasoning and provides a foundation for developing trustworthy, interpretable, and verifiable financial AI. This project is available at https://github.com/mbzuai-nlp/finchain.git."
+}

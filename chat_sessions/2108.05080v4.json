@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "What dataset does this paper introduce?"
+  },
+  {
+    "role": "assistant",
+    "content": "The paper introduces a dataset called **FakeAVCelebdataset**.\n\nDetails regarding this dataset include:\n*   **Access Links:** https://sites.google.com/view/ fakeavcelebdash-lab/\n*   **DOI:** http://doi.org/10.23056/FAKEAVCELEB_DASHLAB\n*   **Licensing:** It is available under a Creative Commons 4.0 license, and the code is under the MIT license.\n\nThe dataset cannot be freely used without filling out a dataset request form to monitor and restrict its use, as suggested by experts who warn that deepfake datasets can be used by malicious actors."
+  },
+  {
+    "role": "user",
+    "content": "How many ethnicities were represented in the celebrities selected for the dataset?"
+  },
+  {
+    "role": "assistant",
+    "content": "The celebrities selected for the dataset represent **four** ethnic groups:\n\n1.  Caucasian\n2.  Black\n3.  South Asian\n4.  East Asian"
+  }
+]
